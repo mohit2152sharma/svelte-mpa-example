@@ -9,7 +9,8 @@ const config = {
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
-			strict: false
+			strict: false,
+			fallback: 'app.html'
 		})
 	}
 };

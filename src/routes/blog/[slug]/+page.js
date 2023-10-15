@@ -8,6 +8,6 @@ export function load({ params, route }) {
     title: params.slug,
     content: params.slug
   }
-
-
 }
+
+export const prerender = false;

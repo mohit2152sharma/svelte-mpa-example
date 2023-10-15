@@ -9,4 +9,6 @@ export function load({ params, url }) {
   };
 }
 
-export const prerender = false; 
+export const prerender = false;
+export const ssr = false;
+export const csr = true;

@@ -9,4 +9,4 @@ export function load({ params, url }) {
   };
 }
 
-export const prerendered = false; 
+export const prerender = false; 

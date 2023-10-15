@@ -10,7 +10,7 @@ const config = {
 			pages: 'build',
 			assets: 'build',
 			strict: false,
-			fallback: 'app.html'
+			fallback: '200.html'
 		})
 	}
 };

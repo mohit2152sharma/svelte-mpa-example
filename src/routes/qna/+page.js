@@ -8,3 +8,5 @@ export function load({ params, url }) {
     id: id
   };
 }
+
+export const prerendered = false; 

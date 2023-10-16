@@ -14,9 +14,9 @@ const config = {
 		}),
 		appDir: 'appDir',
 		paths: {
-			assets: 'https://mohit2152sharma.github.io',
-			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH,
-			relative: false
+			assets: 'https://mohit2152sharma.github.io/svelte-mpa-example',
+			// base: '/svelte-mpa-example',
+			// relative: false
 		}
 	}
 };

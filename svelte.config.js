@@ -12,8 +12,9 @@ const config = {
 			strict: false,
 			fallback: '404.html'
 		})
+		// appDir: 'appDir'
 	}
 };
 
-config.paths = { base: process.argv.includes('dev') ? '' : process.env.BASE_PATH + '/build' }
+config.paths = { base: process.argv.includes('dev') ? '' : process.env.BASE_PATH + '/svelte-mpa-example' }
 export default config;

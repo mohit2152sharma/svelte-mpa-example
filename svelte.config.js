@@ -16,5 +16,5 @@ const config = {
 	}
 };
 
-config.paths = { base: process.argv.includes('dev') ? '' : process.env.BASE_PATH }
+config.paths = { base: process.argv.includes('dev') ? '' : '/svelte-mpa-example' }
 export default config;

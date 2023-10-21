@@ -8,12 +8,12 @@ This repo illustrates, how to host a multi page svelte application on github pag
 To understand, how it works, let me first explain few terminologies with the help of _chatGPT_.
 
 ***Server side rendering (`ssr`)***
-In SSR, the server generates the full HTML for a web page and sends it to the client. This means that when a user requests a page, the server processes the request, fetches the necessary data, and dynamically generates the HTML on the server side. The fully rendered HTML is then sent to the client's browser, where it's displayed to the user. This approach is often associated with traditional web applications.
+> In SSR, the server generates the full HTML for a web page and sends it to the client. This means that when a user requests a page, the server processes the request, fetches the necessary data, and dynamically generates the HTML on the server side. The fully rendered HTML is then sent to the client's browser, where it's displayed to the user. This approach is often associated with traditional web applications.
 
 This is how github pages work, it serves fully rendered html pages, which with dynamic routing is difficult to do. As in dynamic routing, you could have a template for blog posts, and based on the data (like different blog post titles), the application can dynamically generate URLs for each blog post. So, instead of creating individual HTML files for each post, you have a single template that's populated with content based on the requested URL.
 
 ***Client side rendering (`csr`)***
-In CSR, the server sends a minimal HTML document to the client, along with JavaScript. The client's browser then executes the JavaScript to dynamically generate and render the content. This approach is common in single-page applications (SPAs) where most of the rendering and navigation happens on the client side.
+> In CSR, the server sends a minimal HTML document to the client, along with JavaScript. The client's browser then executes the JavaScript to dynamically generate and render the content. This approach is common in single-page applications (SPAs) where most of the rendering and navigation happens on the client side.
 
 ## How to
 

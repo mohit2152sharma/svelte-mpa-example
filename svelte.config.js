@@ -16,11 +16,8 @@ const config = {
 		paths: {
 			assets: 'https://mohit2152sharma.github.io/svelte-mpa-example',
 			base: '/svelte-mpa-example',
-			// relative: false
 		}
 	}
 };
 
-// console.log(`directory path: ${process.env.BASE_PATH}`)
-// config.paths = { base: process.argv.includes('dev') ? '' : process.env.BASE_PATH }
 export default config;
